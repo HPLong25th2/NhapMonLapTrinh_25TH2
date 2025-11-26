@@ -226,7 +226,7 @@ int main()
 //}
     //9. Viết chương trình nhập vào 1 ngày ( ngày, tháng, năm). Tìm ngày trước ngày vừa nhập (ngày, tháng, năm)?
 
-    int ngay, thang, nam;
+    /*int ngay, thang, nam;
     cout << "Nhap ngay, thang, nam: ";
     cin >> ngay >> thang >> nam;
     if (ngay == 1 && thang == 1) {
@@ -256,8 +256,23 @@ int main()
                     ngaytruoc = 28;
             }
             cout << "Ngay truoc do la: " << ngaytruoc << "/" << thangtruoc << "/" << namtruoc << endl;
-        }
+        }*/ 
+float dxt;
+cout << "Nhap diem xet tuyen: ";
+cin >> dxt;
+int hocphi = 2000000, hocbong = 0;
+if (dxt >= 8)
+hocbong = 2000000;
+else if (dxt >= 7)
+hocbong = 1000000;
+else if (dxt >= 5);
+hocbong = 2000000;
+else
+hocbong = 0;
+cout << "Hoc phi phai nop: " << hocphi - hocbong;
+
     }
+
 
 
 
